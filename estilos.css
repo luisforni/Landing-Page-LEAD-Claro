@@ -1,0 +1,402 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Roboto";
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("fuentes/RobotoCondensed-Light.ttf")
+}
+
+
+body {
+    background: #f6f6f6;
+    color: #2d2e33;
+    text-align: center;
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.in-flex {
+    flex: 1;
+    padding: 0px;
+    min-width: 250px;
+}
+
+.in-flex first-child {
+    flex: 2;
+    padding: 0;
+}
+
+.in-flex div {
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header{
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    box-sizing: border-box;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: auto;
+    height: 90px;
+    background: #ef3829;
+}
+
+.logotipo {
+    position: fixed;
+    text-align: left;
+    width: 100%;
+    margin-left: 60px;
+    top: 20px;
+}
+
+form {
+    text-align: center;
+    width: 50% auto;
+    border: 1px solid #ccc;
+    margin: 5%;
+    margin-left: 5%;
+    margin-right: 5%;   
+    padding: 2.5%;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    letter-spacing: 0.5px;
+}
+
+.completa {
+    text-align: center;
+    color: #2d2e33;
+    font-size: 26px;
+    letter-spacing: 0.5px;
+}
+
+.linea {
+    text-align: left;
+    margin-left: 5px;
+    letter-spacing: 0.5px;
+}
+
+.empresa {
+    text-align: left;
+    margin-left: 5px;
+    letter-spacing: 0.5px;
+}
+
+.mercado {
+    text-align: left;
+    margin-left: 5px;
+    letter-spacing: 0.5px;
+}
+
+label {
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    margin-bottom: 1%;
+    color:#2d2e33;
+    letter-spacing: 0.5px;
+}
+
+input, select, button {
+    margin-bottom: 4%;
+    width: 98.5%;
+    padding: 3%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    background: #f2f2f2;
+    border-radius: 10px;
+    letter-spacing: 0.5px;
+}
+
+input:focus, select:focus {
+    border: 1.3px solid #ef3829;
+}
+
+input[type="submit"] {
+
+    margin-top: 2%;
+    margin-bottom: 0;
+    background: #ef3829;
+    color:#fff;
+    border:none;
+    font-size: 18px;
+}
+
+input[type="submit"]:hover {
+     background: #1f97ae;
+     cursor:pointer;
+}
+
+button {
+    margin-top: 2%;
+    margin-bottom: 0;
+    background: #ef3829;
+    color:#fff;
+    border:none;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+button:hover {
+     background: #1f97ae;
+     cursor:pointer;
+}
+
+.body1 {
+    background:url(imagenes/w.jpg) no-repeat fixed top center #f6f6f6;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+#caja2 {
+    margin: auto;
+    text-align: center;
+}
+
+.portabilidad {
+    text-align: left;
+    color: #ef3829;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: rgba(192, 192, 192, 0.8);
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 35px;
+    font-family: "roboto";
+    font-weight: bold;
+    line-height: 45px;
+    letter-spacing: 0.8px;
+    margin-bottom: 4px;
+}
+
+.off {
+    text-align: left;
+    color: #2d2e33;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: rgba(192, 192, 192, 0.8);
+    padding-left: 5px;
+    padding-right: 20px;
+    font-size: 35px;
+    font-family: "roboto";
+    font-weight: lighter;
+    line-height: 45px;
+    letter-spacing: 0.8px;
+}
+
+.elegi {
+    text-align: left;
+    background: rgba(192, 192, 192, 0.8);
+    color: #2d2e33;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 24px;
+    font-family: "roboto";
+    font-weight: lighter;
+    line-height: 35px;
+    letter-spacing: 0.6px;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background: #000;
+    color: #fff;
+    font-size: 12px;
+    position: fixed;
+    height: auto;
+}
+
+
+
+
+
+.gracias {
+    margin-top: 60px;
+    text-align: left;
+    color: #ef3829;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: rgba(192, 192, 192, 0.8);
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 35px;
+    font-family: "roboto";
+    font-weight: bold;
+    line-height: 45px;
+    letter-spacing: 0.8px;
+    margin-bottom: 4px;
+}
+
+.asesor {
+    text-align: left;
+    background: rgba(192, 192, 192, 0.8);
+    color: #2d2e33;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 24px;
+    font-family: "roboto";
+    font-weight: lighter;
+    line-height: 35px;
+    letter-spacing: 0.6px;
+}
+
+.body2 {
+    text-align: center;
+    background: #fff;
+    margin-bottom: 10%;
+}
+
+.home1 {
+    text-align: center;
+    margin-top: 125px;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+}
+
+.home2 {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.plan{
+    background: #000;
+    max-width: 400px;
+    color: #fff;
+    padding: 15px;
+    font-weight: bolder;
+    letter-spacing: 0.8px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-left: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #fff;
+}
+
+.pre1{
+    background: #1f97ae;
+    max-width: 400px;
+    color: #fff;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    font-size: 32px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-left: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7;
+}
+
+.pre2{
+    background: #1f97ae;  
+    max-width: 400px;
+    color: #fff;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: lighter;
+    letter-spacing: 0.8px;
+    text-decoration: line-through;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-left: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7;
+}
+
+.giga{
+    background: #fff;
+    max-width: 400px;    
+    color: #000;
+    padding: 15px;
+    font-weight: bolder;
+    letter-spacing: 0.8px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-left: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.llama{
+    background: #f6f6f6;
+    max-width: 400px;
+    color: #000;
+    padding: 15px;
+    font-weight: bolder;
+    letter-spacing: 0.8px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-left: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.roam{
+    background: #fff;
+    max-width: 400px;
+    color: #000;
+    padding: 15px;
+    font-weight: bolder;
+    letter-spacing: 0.8px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-left: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.peli{
+    background: #f6f6f6;
+    max-width: 400px;
+    color: #000;
+    padding: 15px;
+    font-weight: bolder;
+    letter-spacing: 0.8px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-left: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 5%;
+}
